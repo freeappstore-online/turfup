@@ -1,0 +1,21 @@
+{
+  "name": "turfup",
+  "private": true,
+  "packageManager": "pnpm@10.30.3",
+  "engines": {
+    "node": ">=22"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "sharp"
+    ]
+  },
+  "scripts": {
+    "dev": "pnpm --filter @turfup/web dev",
+    "build": "pnpm --filter @turfup/web build",
+    "preview": "pnpm --filter @turfup/web preview",
+    "typecheck": "pnpm --filter @turfup/web exec tsc -b",
+    "test": "pnpm --filter @turfup/web test"
+  }
+}

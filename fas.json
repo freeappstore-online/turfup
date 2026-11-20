@@ -1,0 +1,6 @@
+{
+  "appId": "turfup",
+  "applicationRoot": "web",
+  "outputPath": "web/dist",
+  "buildCommand": "pnpm build"
+}
